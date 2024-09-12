@@ -1,6 +1,7 @@
 # Language-based Image Colorization: A Benchmark and Beyond
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://github.com/lyf1212/Color-Turbo)
+[![Project Page](https://img.shields.io/badge/Project-Website-5B7493?logo=googlechrome&logoColor=5B7493)](https://github.com/lyf1212/Color-Turbo)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-%20Hugging%20Face-ED7D31)](https://github.com/lyf1212/Color-Turbo)
 
 - [ ] Upload arXiv paper
