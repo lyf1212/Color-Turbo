@@ -10,6 +10,21 @@
 - [ ] Release code of Color-Turbo
 - [ ] Release online demo of Color-Turbo
 
+**Outline:**
+- [Review and Benchmark](#book-review-and-benchmark)
+    - [Automatic Image Colorization](#automatic-image-colorization)
+        - [CNN-based methods](#cnn-based-methods)
+        - [Transformer-based methods](#transformer-based-methods)
+        - [GAN-based methods](#gan-based-methods)
+        - [Diffusion-based methods](#diffusion-based-methods)
+    - [Language-based Image Colorization](#language-based-image-colorization)
+        - [From-scratch cross-modality](#from-scratch-cross-modality)
+        - [CLIP-based cross-modality](#clip-based-cross-modality)
+        - [Stable-Diffusion based cross-modality](#stable-diffusion-based-cross-modality)
+            -[Four Representative Condition Insertion Paradigm](#four-representative-condition-insertion-paradigm)
+- [Color-Turbo: Single-step Diffusion for Colorfulness Controllable Colorization](#rocket-color-turbo-single-step-diffusion-for-colorfulness-controllable-colorization)
+
+<!-- [toc] -->
 
 ## :book: Review and Benchmark
 ![Alt text](imgs/taxonomy.png)
@@ -78,6 +93,7 @@ The core challenge is to construct an accurate **cross-modal correspondence** be
 |[L-CAD: Language-based Colorization with Any-level Descriptions using Diffusion Priors](https://proceedings.neurips.cc/paper_files/paper/2023/file/f3bfbd65743e60c685a3845bd61ce15f-Paper-Conference.pdf) | L-CAD | finetune SD & bypassed VAE | [code](https://github.com/changzheng123/L-CAD) | NeurIPS, 2023 |
 |[COCO-LC: Colorfulness Controllable Language-based Colorization](https://dl.acm.org/doi/10.1145/3664647.3680662) | COCO-LC | coarse-to-fine ControlNet-based & colorfulness control | [code](https://github.com/lyf1212/COCO-LC/) | ACM MM, 2024 |
 
+---
 
 
 ## :rocket: Color-Turbo: Single-step Diffusion for Colorfulness Controllable Colorization
